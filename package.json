@@ -1,0 +1,22 @@
+{
+  "name": "Nicole.p",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production npx eleventy",
+    "start": "netlify dev",
+    "dev": "NODE_ENV=development npx eleventy --serve",
+    "watch": "npx eleventy --watch",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "dotenv": "^16.0.3",
+    "stripe": "^12.4.0",
+    "tailwindcss": "^3.3.2"
+  }
+}
